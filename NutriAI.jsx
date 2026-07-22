@@ -1,6 +1,6 @@
 const { useEffect, useMemo, useRef, useState } = React;
 
-const WORKER_URL = "https://nutriai-worker-image-recognition.wtbbiealtm18.workers.dev/";
+const WORKER_URL = "https://nutriai-worker-image-recognition-local-first.wtbbiealtm18.workers.dev/";
 const STORE = "nutriai_v3";
 const todayKey = () => new Date().toISOString().slice(0, 10);
 const uid = () => `${Date.now()}-${Math.random().toString(16).slice(2)}`;
